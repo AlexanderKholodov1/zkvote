@@ -10,7 +10,7 @@ ZKVote is split into Server and Client sides:
 - Client works independently of the server. It connects to the host and retrieves the issue and available options. If the ID credentials are correct, Client may vote and their anonymous answer will be registered on the server side. If there was an IP block, then this user may vote only once from this machine.
 
 Here I include a YouTube video with the program funcioning:
-- YouTube:
+- YouTube (English): https://youtu.be/NurUCkyWnFc
 
 ## Features
 
@@ -133,6 +133,7 @@ This project was developed with the assistance of AI pair programming tools:
 - GitHub Copilot (Agent Mode) - Licensed under the [GitHub Copilot License Agreement](https://github.com/github-copilot/legal/blob/main/github-copilot-product-specific-terms.md)
 - Anthropic Claude Sonnet (v3.5) - Used under Anthropic's [Terms of Service](https://www.anthropic.com/terms)
 - GPT-5 mini - Used under OpenAI's [Terms of Service](https://openai.com/policies/terms-of-use)
+
 
 
 
