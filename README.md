@@ -9,6 +9,9 @@ ZKVote is split into Server and Client sides:
 - Server	sets the amount of people that are allowed to vote and configures if they will or will not be able to vote from the same IP. Server generates unique IDs that should be provided to Client to work (used only once). Server sets the issue for voting and the possible options. The results are available upon the termination of the server by pressing Ctrl+C, after which their are saved in a .txt file on the Server folder. There says the amount of votes per option and the respective statistics. Finally, cleanup process is called automatically, that erases temporal files and the sensible hash codes for the IDs (except the results in .txt). Note: .txt format is far from ideal. If implemented on a website, like for a big group of voters, the output should be displayed there; but, as this program is intended for small offices, running on a local network, it outputs directly to the administrator's server folder.
 - Client works independently of the server. It connects to the host and retrieves the issue and available options. If the ID credentials are correct, Client may vote and their anonymous answer will be registered on the server side. If there was an IP block, then this user may vote only once from this machine.
 
+Here I include a YouTube video with the program funcioning:
+- YouTube:
+
 ## Features
 
 - Zero-Knowledge Proofs for vote verification without revealing voter identity
@@ -131,3 +134,4 @@ This project was developed with the assistance of AI pair programming tools:
 
 
 These AI tools were used to enhance development efficiency while maintaining code quality and security standards. All code has been reviewed and tested to ensure it meets our project requirements and best practices.
+
