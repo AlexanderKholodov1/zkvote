@@ -1,6 +1,6 @@
 # ZKVote - Voting System with Zero-Knowledge Proofs
 
-An anonymous and verifiable voting system using Zero-Knowledge Proofs for secure, private voting. Perfect for small to medium-sized groups, with support for IP-based vote limiting and cryptographically secure voter verification.
+An anonymous and verifiable voting system using Zero-Knowledge Proofs for secure, private voting. Perfect for small to medium-sized groups, with support for IP-based vote limiting and cryptographically secure voter verification. It is a draft that has the intention of showing the idea, it will be developed further during the ZKET Core Program.
 
 ## Abstract
 
@@ -133,5 +133,6 @@ This project was developed with the assistance of AI pair programming tools:
 - GitHub Copilot (Agent Mode) - Licensed under the [GitHub Copilot License Agreement](https://github.com/github-copilot/legal/blob/main/github-copilot-product-specific-terms.md)
 - Anthropic Claude Sonnet (v3.5) - Used under Anthropic's [Terms of Service](https://www.anthropic.com/terms)
 - GPT-5 mini - Used under OpenAI's [Terms of Service](https://openai.com/policies/terms-of-use)
+
 
 
