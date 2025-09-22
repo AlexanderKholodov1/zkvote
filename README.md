@@ -50,28 +50,29 @@ ZKVote is split into Server and Client sides:
    cd server
    ```
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Start the server:
+2. Start the server:
    ```
    server.bat
    ```
 
-4. Follow the setup prompts:
+3. Follow the setup prompts:
    - Enter the number of voters (minimum 2)
    - Choose whether to block multiple votes from the same IP (y/n)
    - Enter the voting subject
    - Enter the options (comma-separated)
 
-5. The server will generate unique voter IDs and display them. Share these IDs with the voters.
+4. The server will generate unique voter IDs and display them. Share these IDs with the voters.
 
-6. To stop the server and save results:
+5. To stop the server and save results:
    - Press Ctrl+C
    - Results will be saved as a text file with timestamp
    - Press any key to exit
+  
++ If problems encountered:
+   - Install dependencies with the respective script or by running:
+   ```
+   npm install
+   ```
 
 ### Using the Client
 
@@ -80,23 +81,24 @@ ZKVote is split into Server and Client sides:
    cd client
    ```
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Start the voting process:
+2. Start the voting process:
    ```
    vote.bat
    ```
 
-4. Follow the voting steps:
+3. Follow the voting steps:
    - Enter your voter ID when prompted
    - View the voting subject and options
    - Enter your choice (number)
    - Wait for confirmation
 
-5. The client will exit after your vote is recorded
+4. The client will exit after your vote is recorded
+
++ If problems encountered:
+   - Install dependencies with the respective script or by running:
+   ```
+   npm install
+   ```
 
 ## Results Format
 
@@ -132,6 +134,4 @@ This project was developed with the assistance of AI pair programming tools:
 - Anthropic Claude Sonnet (v3.5) - Used under Anthropic's [Terms of Service](https://www.anthropic.com/terms)
 - GPT-5 mini - Used under OpenAI's [Terms of Service](https://openai.com/policies/terms-of-use)
 
-
-These AI tools were used to enhance development efficiency while maintaining code quality and security standards. All code has been reviewed and tested to ensure it meets our project requirements and best practices.
 
